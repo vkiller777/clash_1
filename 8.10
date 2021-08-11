@@ -1,0 +1,321 @@
+
+
+socks-port: 7891
+
+allow-lan: true
+
+mode: Rule
+
+log-level: info
+
+external-controller: :9090
+
+proxies:
+
+  - {name: 翻墙党fanqiangdang.com, server: 46.182.107.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44590130.xyz}}
+
+  - {name: 翻墙党fanqiangdang.com 2, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}}
+
+  - {name: 翻墙党fanqiangdang.com 3, server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
+
+  - {name: 翻墙党fanqiangdang.com 4, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
+
+  - {name: 翻墙党fanqiangdang.com 5, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
+
+  - {name: 翻墙党fanqiangdang.com 6, server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
+
+  - {name: 翻墙党fanqiangdang.com 7, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+
+  - {name: 翻墙党fanqiangdang.com 8, server: euserv5p.ezddns.tk, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
+
+  - {name: 翻墙党fanqiangdang.com 9, server: euserv10p.ezddns.tk, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
+
+  - {name: 翻墙党fanqiangdang.com 10, server: euserv18p.ezddns.tk, port: 80, type: vmess, uuid: 344c0b7d-2c35-4c95-8481-e2fc3c456a06, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.mp3, ws-headers: {Host: euserv18p.ezddns.tk}}
+
+  - {name: 翻墙党fanqiangdang.com 11, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+
+  - {name: 翻墙党fanqiangdang.com 12, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+
+  - {name: 翻墙党fanqiangdang.com 13, server: euserv5p.ezddns.tk, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
+
+  - {name: 翻墙党fanqiangdang.com 14, server: c39s4.jamjams.net, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false}
+
+  - {name: 翻墙党fanqiangdang.com 15, server: 199.60.103.228, port: 80, type: vmess, uuid: b22b990f-b6dd-4b57-a0e1-ee3f829d413f, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshkit, ws-headers: {Host: eu-sshkit.v2-ray.cf}}
+
+  - {name: 翻墙党fanqiangdang.com 16, server: 104.245.96.158, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+
+  - {name: 翻墙党fanqiangdang.com 17, server: ngzyd-1.okex-tradebot.xyz, port: 30012, type: vmess, uuid: bc111515-d420-425b-9e19-7ef71e0fd1f9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+
+  - {name: 185.232.21.51:43893, server: 185.232.21.51, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+
+  - {name: 185.232.21.51:48938, server: 185.232.21.51, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+
+  - {name: 156.146.62.36:33148, server: 156.146.62.36, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+
+  - {name: 156.146.62.36:45329, server: 156.146.62.36, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+
+  - {name: 156.146.62.36:44236, server: 156.146.62.36, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+
+  - {name: 104.244.211.141:43893, server: 104.244.211.141, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+
+  - {name: 104.244.211.139:49339, server: 104.244.211.139, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+
+  - {name: 104.244.211.139:43893, server: 104.244.211.139, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+
+  - {name: 104.244.211.139:48938, server: 104.244.211.139, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+
+  - {name: 91.90.123.115:41676, server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+
+  - {name: 91.90.123.115:40093, server: 91.90.123.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+
+  - {name: 91.90.123.115:47027, server: 91.90.123.115, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+
+  - {name: 91.90.123.115:47121, server: 91.90.123.115, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+
+  - {name: 91.90.123.115:31944, server: 91.90.123.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+
+  - {name: 91.90.123.115:50168, server: 91.90.123.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+
+  - {name: 91.90.123.115:44820, server: 91.90.123.115, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+
+  - {name: 🇭🇰 HK_4995, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, sni: hk31.ssgnode.ga}
+
+  - {name: 🇭🇰 HK_4993, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top}
+
+  - {name: 🇯🇵 JP_6089, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03, sni: tky3.ssgnode.ga}
+
+  - {name: 🇺🇸 US_13722, server: a8.ssrsub.one, port: 443, type: trojan, password: MrGNcUQB, sni: a8.ssrsub.one}
+
+  - {name: 🇺🇸 US_13724 | 1.75Mb, server: t7.ssrsub.one, port: 8443, type: trojan, password: fZARUiTm, sni: t7.ssrsub.one}
+
+  - {name: 🇺🇸 US_13725, server: v.9051246.xyz, port: 443, type: trojan, password: !<str> 18825786, sni: v.9051246.xyz}
+
+  - {name: 🇺🇸 US_13726, server: 45.146.122.145, port: 443, type: trojan, password: 3zOdub}
+
+proxy-groups:
+
+  - name: 🚀 节点选择
+
+    type: select
+
+    proxies:
+
+      - ♻️ 自动选择
+
+      - DIRECT
+
+      - 翻墙党fanqiangdang.com
+
+      - 翻墙党fanqiangdang.com 2
+
+      - 翻墙党fanqiangdang.com 3
+
+      - 翻墙党fanqiangdang.com 4
+
+      - 翻墙党fanqiangdang.com 5
+
+      - 翻墙党fanqiangdang.com 6
+
+      - 翻墙党fanqiangdang.com 7
+
+      - 翻墙党fanqiangdang.com 8
+
+      - 翻墙党fanqiangdang.com 9
+
+      - 翻墙党fanqiangdang.com 10
+
+      - 翻墙党fanqiangdang.com 11
+
+      - 翻墙党fanqiangdang.com 12
+
+      - 翻墙党fanqiangdang.com 13
+
+      - 翻墙党fanqiangdang.com 14
+
+      - 翻墙党fanqiangdang.com 15
+
+      - 翻墙党fanqiangdang.com 16
+
+      - 翻墙党fanqiangdang.com 17
+
+      - 185.232.21.51:43893
+
+      - 185.232.21.51:48938
+
+      - 156.146.62.36:33148
+
+      - 156.146.62.36:45329
+
+      - 156.146.62.36:44236
+
+      - 104.244.211.141:43893
+
+      - 104.244.211.139:49339
+
+      - 104.244.211.139:43893
+
+      - 104.244.211.139:48938
+
+      - 91.90.123.115:41676
+
+      - 91.90.123.115:40093
+
+      - 91.90.123.115:47027
+
+      - 91.90.123.115:47121
+
+      - 91.90.123.115:31944
+
+      - 91.90.123.115:50168
+
+      - 91.90.123.115:44820
+
+      - 🇭🇰 HK_4995
+
+      - 🇭🇰 HK_4993
+
+      - 🇯🇵 JP_6089
+
+      - 🇺🇸 US_13722
+
+      - 🇺🇸 US_13724 | 1.75Mb
+
+      - 🇺🇸 US_13725
+
+      - 🇺🇸 US_13726
+
+  - name: ♻️ 自动选择
+
+    type: url-test
+
+    url: http://www.gstatic.com/generate_204
+
+    interval: 300
+
+    tolerance: 50
+
+    proxies:
+
+      - 翻墙党fanqiangdang.com
+
+      - 翻墙党fanqiangdang.com 2
+
+      - 翻墙党fanqiangdang.com 3
+
+      - 翻墙党fanqiangdang.com 4
+
+      - 翻墙党fanqiangdang.com 5
+
+      - 翻墙党fanqiangdang.com 6
+
+      - 翻墙党fanqiangdang.com 7
+
+      - 翻墙党fanqiangdang.com 8
+
+      - 翻墙党fanqiangdang.com 9
+
+      - 翻墙党fanqiangdang.com 10
+
+      - 翻墙党fanqiangdang.com 11
+
+      - 翻墙党fanqiangdang.com 12
+
+      - 翻墙党fanqiangdang.com 13
+
+      - 翻墙党fanqiangdang.com 14
+
+      - 翻墙党fanqiangdang.com 15
+
+      - 翻墙党fanqiangdang.com 16
+
+      - 翻墙党fanqiangdang.com 17
+
+      - 185.232.21.51:43893
+
+      - 185.232.21.51:48938
+
+      - 156.146.62.36:33148
+
+      - 156.146.62.36:45329
+
+      - 156.146.62.36:44236
+
+      - 104.244.211.141:43893
+
+      - 104.244.211.139:49339
+
+      - 104.244.211.139:43893
+
+      - 104.244.211.139:48938
+
+      - 91.90.123.115:41676
+
+      - 91.90.123.115:40093
+
+      - 91.90.123.115:47027
+
+      - 91.90.123.115:47121
+
+      - 91.90.123.115:31944
+
+      - 91.90.123.115:50168
+
+      - 91.90.123.115:44820
+
+      - 🇭🇰 HK_4995
+
+      - 🇭🇰 HK_4993
+
+      - 🇯🇵 JP_6089
+
+      - 🇺🇸 US_13722
+
+      - 🇺🇸 US_13724 | 1.75Mb
+
+      - 🇺🇸 US_13725
+
+      - 🇺🇸 US_13726
+
+  - name: 🌍 国外媒体
+
+    type: select
+
+    proxies:
+
+      - 🚀 节点选择
+
+      - ♻️ 自动选择
+
+      - 🎯 全球直连
+
+      - 翻墙党fanqiangdang.com
+
+      - 翻墙党fanqiangdang.com 2
+
+      - 翻墙党fanqiangdang.com 3
+
+      - 翻墙党fanqiangdang.com 4
+
+      - 翻墙党fanqiangdang.com 5
+
+      - 翻墙党fanqiangdang.com 6
+
+      - 翻墙党fanqiangdang.com 7
+
+      - 翻墙党fanqiangdang.com 8
+
+      - 翻墙党fanqiangdang.com 9
+
+      - 翻墙党fanqiangdang.com 10
+
+      - 翻墙党fanqiangdang.com 11
+
+      - 翻墙党fanqiangdang.com 12
+
+      - 翻墙党fanqiangdang.com 13
+
+      - 翻墙党fanqiangdang.com 14
+
+      - 翻墙党fanqiangdang.com 15
+
+      - 翻墙党fanqiangdang.com 
